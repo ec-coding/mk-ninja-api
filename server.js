@@ -52,8 +52,8 @@ const ninjas = {
     'noob saibot':{
         'realName': 'Bi Han',
         'origin': 'Earthrealm',
-        'faction': 'Shirai Ryu Clan',
-        'specialMove': 'Spear Grab'
+        'faction': 'Independent',
+        'specialMove': 'Teleport Slam'
     },
     'rain':{
         'realName': 'Unknown',
