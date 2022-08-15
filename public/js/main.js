@@ -11,6 +11,7 @@ async function apiRequest(){
         document.querySelector('#origin').innerText = data.origin
         document.querySelector('#faction').innerText = data.faction
         document.querySelector('#sp-move').innerText = data.specialMove
+        document.querySelector('#ninja-image').src = data.ninjaImage
     }catch(error){
         console.log(error)
     }

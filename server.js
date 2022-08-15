@@ -11,7 +11,8 @@ const ninjas = {
         'realName': 'Hanzo Hasashi',
         'origin': 'Earthrealm',
         'faction': 'Shirai Ryu Clan',
-        'specialMove': 'Spear Grab'
+        'specialMove': 'Spear Grab',
+        'ninjaImage': ('https://bit.ly/3c2nnYJ')
     },
     'sub-zero':{
         'realName': 'Kuai Liang',
