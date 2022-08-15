@@ -6,8 +6,6 @@ const PORT = 3000
 app.use(cors())
 app.use(express.static('public'))
 
-
-
 const ninjas = {
     'scorpion':{
         'realName': 'Hanzo Hasashi',
@@ -108,6 +106,6 @@ app.get('/api/:ninjaName', (request, response) => {
     }
 })
 
-app._router.listen(process.env.PORT || PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`The server is running on port ${PORT}.`)
 })
