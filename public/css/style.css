@@ -1,0 +1,22 @@
+body{
+    background-image: url('https://bit.ly/3AouNza');
+    background-size: cover;
+    margin-top: 50px;;
+    margin-left: 50px;
+}
+
+section{
+    padding: 20px;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.75);
+    border: 2px solid black;
+}
+
+div{
+    display: flex;
+}
+
+.container-child{
+    display: flex;
+    margin-right: 10px;
+}

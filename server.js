@@ -86,10 +86,10 @@ const ninjas = {
         'specialMove': 'Surging Blast'
     },
     'unknown':{
-        'realName': 'Tanya',
-        'origin': 'Edenia',
-        'faction': 'Brotherhood of Shadow',
-        'specialMove': 'Surging Blast'
+        'realName': 'Unknown',
+        'origin': 'Unknown',
+        'faction': 'Unknown',
+        'specialMove': 'Unknown'
     }
 }
 
@@ -102,7 +102,7 @@ app.get('/api/:ninjaName', (request, response) => {
     if (ninjas[ninjasName]) {
         response.json(ninjas[ninjasName])
     } else {
-        response.json(rappers['unknown'])
+        response.json(ninjas['unknown'])
     }
 })
 
