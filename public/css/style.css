@@ -20,3 +20,8 @@ div{
     display: flex;
     margin-right: 10px;
 }
+
+#ninja-img{
+    height: auto;
+    width: 400px;
+}
